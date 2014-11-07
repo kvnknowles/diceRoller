@@ -3,5 +3,5 @@ require 'bundler'
 
 Bundler.require
 
-require './my_app'
-run MyApp
+require './lib/dice_roller_app'
+run DiceRollerApp

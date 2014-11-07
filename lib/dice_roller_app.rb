@@ -1,6 +1,6 @@
 require 'sinatra'
 
-class MyApp < Sinatra::Base
+class DiceRollerApp < Sinatra::Base
 	get '/hi' do
 		"Hello World!"
 	end
