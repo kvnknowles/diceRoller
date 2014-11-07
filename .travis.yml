@@ -9,3 +9,4 @@ deploy:
   app: rollmedice
   on:
     repo: kvnknowles/diceRoller
+    rvm: 2.1.0
