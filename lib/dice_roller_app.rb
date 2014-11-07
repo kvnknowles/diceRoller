@@ -1,7 +1,7 @@
 require 'sinatra'
 
 class DiceRollerApp < Sinatra::Base
-	get '/hi' do
-		"Hello World!"
+	get '/' do
+		"<p>All your dice are belong to us</p>"
 	end
 end
