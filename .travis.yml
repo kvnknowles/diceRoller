@@ -1,11 +1,12 @@
 language: ruby
 rvm:
-- 2.1.0
+- 2.1.4
 deploy:
   provider: heroku
   api_key:
     secure: boHGuLAznHWmzEJ3TCftrshbXU50GljnZc1xl0JDG/1bkdUv93wbPVwSsjw0y8iQtAiTbNAtRyiCuGf8+gshsYjZA2mlJ8cHqgegPnatW68T288zNJ0YAAmqwZjJB2CmPvInMTa8pORNCbDc8wZWK2NIQf7nG3hqSZ3hzHMXgMQ=
   app: rollmedice
+  strategy: git
   on:
     repo: kvnknowles/diceRoller
-    rvm: 2.1.0
+    rvm: 2.1.4
