@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.1.4
+- 2.0.0
 deploy:
   provider: heroku
   api_key:
@@ -9,4 +9,4 @@ deploy:
   strategy: git
   on:
     repo: kvnknowles/diceRoller
-    rvm: 2.1.4
+    rvm: 2.0.0
